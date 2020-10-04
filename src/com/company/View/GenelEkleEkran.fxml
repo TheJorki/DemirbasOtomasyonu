@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Controller.GenelEkleController">
+   <children>
+      <TextField fx:id="adsoyadtxt" alignment="CENTER" layoutX="170.0" layoutY="32.0" prefHeight="25.0" prefWidth="205.0" promptText="Ad Soyad" style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <TextField fx:id="meslektxt" alignment="CENTER" layoutX="170.0" layoutY="64.0" prefHeight="25.0" prefWidth="205.0" promptText="Meslek" style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <TextField fx:id="laptoptxt" alignment="CENTER" layoutX="170.0" layoutY="96.0" prefHeight="25.0" prefWidth="205.0" promptText="Laptop" style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <TextField fx:id="pctxt" alignment="CENTER" layoutX="170.0" layoutY="128.0" prefHeight="25.0" prefWidth="205.0" promptText="Bilgisayar" style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <TextField fx:id="sistemtxt" alignment="CENTER" layoutX="170.0" layoutY="160.0" prefHeight="25.0" prefWidth="205.0" promptText="Sistem" style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <TextField fx:id="mon1txt" alignment="CENTER" layoutX="170.0" layoutY="192.0" prefHeight="25.0" prefWidth="205.0" promptText="Monitor 1" style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <TextField fx:id="mon2txt" alignment="CENTER" layoutX="170.0" layoutY="224.0" prefHeight="25.0" prefWidth="205.0" promptText="Monitor 2 " style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <TextField fx:id="mousetxt" alignment="CENTER" layoutX="170.0" layoutY="256.0" prefHeight="25.0" prefWidth="205.0" promptText="Mouse" style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <TextField fx:id="klavyetxt" alignment="CENTER" layoutX="170.0" layoutY="288.0" prefHeight="25.0" prefWidth="205.0" promptText="Klavye" style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <TextField fx:id="officetxt" alignment="CENTER" layoutX="170.0" layoutY="320.0" prefHeight="25.0" prefWidth="205.0" promptText="Microsoft Office" style="-fx-background-color: transparent; -fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px;" />
+      <Label layoutX="14.0" layoutY="32.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" AD SOYAD">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="64.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" MESLEK">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="96.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" LAPTOP">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="128.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" BİLGİSAYAR">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="160.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" SİSTEM">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="192.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" MONİTÖR 1">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="224.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" MONİTÖR 2">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="256.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" MOUSE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="288.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" KLAVYE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="320.0" prefHeight="28.0" prefWidth="135.0" style="-fx-border-color: #fd7311; -fx-border-width: 2px 2px 2px 2px; " text=" MİCROSOFT OFFİCE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+
+      <Button layoutX="405.0" layoutY="322.0" mnemonicParsing="false" onMouseClicked="#eklebtn" prefHeight="25.0" prefWidth="68.0" style="-fx-background-color: #fd7311; -fx-background-radius: 10px;" text="Ekle" textFill="WHITE" />
+      <Button layoutX="645.0" layoutY="461.0" mnemonicParsing="false" onAction="#anamenuBtn" onMouseClicked="#eklebtn" prefHeight="25.0" style="-fx-background-color: #fd7311; -fx-background-radius: 10px;" prefWidth="92.0" text="Ana Menü" textFill="WHITE" />
+   </children>
+</AnchorPane>
